@@ -161,6 +161,8 @@ img { max-width: 100%; }
 }
 /*-------- content --------*/
 .content-detail {
+  margin-left: 5%;
+  margin-right: 5%;
   font-weight: 400;
   margin-top: 70px;
   line-height: 30px;
@@ -326,7 +328,7 @@ img { max-width: 100%; }
   height: 100%;
   right: 0;
   float: right;
-  background: #2f2f2f;
+  background: #46889B;
   padding: 2.5em 1.5em 0;
   -webkit-transform: translate3d(300px, 0, 0);
   transform: translate3d(300px, 0, 0);
@@ -349,7 +351,7 @@ img { max-width: 100%; }
   padding: 1.5em 0;
   -webkit-transform: translate3d(0, 500px, 0);
   transform: translate3d(0, 500px, 0);
-  color: #a5a5a5;
+  color: #e8e8e8;
   position: relative;
 }
 .menu-list a:hover, .menu-list a:active span {color: #ffffff;}
@@ -505,7 +507,7 @@ p {
 
 /*----------------------------------------- 6) Hero --------------------------------------------------*/
 #home {
-  background: url('../images/hero1.jpeg');
+  background: url('../images/background.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -530,7 +532,7 @@ p {
   left: 50%;
   top: 50%;
   padding: 65px;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(197, 222, 229, 0.5);
   outline: 4px double #FFFFFF;
   outline-offset: 8px;
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -912,7 +914,7 @@ ul.portfolio-image li .desc{
   width: 100%;
 }
 .bg-about {
-  background: url('../images/reza.jpg');
+  background: url('../images/think.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -952,7 +954,7 @@ ul.portfolio-image li .desc{
   font-weight: 500;
 }
 .wrap-about .w-content td.break{
-  padding-right: 15px;
+  padding-right: 12px;
 }
 .wrap-about .w-content tr{
   height: 35px;
