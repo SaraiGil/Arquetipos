@@ -88,6 +88,13 @@ img { max-width: 100%; }
   outline: none;
 }
 
+.imgAbout{
+  max-width: 250px;
+	max-height: 250px;
+	border-radius: 150px !important;
+
+}
+
 /*----------------------------------------- 2) Preloader --------------------------------------------------*/
 #preloader {
   position: fixed;
