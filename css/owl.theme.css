@@ -1,5 +1,5 @@
 /*
-* 	Owl Carousel Owl Demo Theme 
+* 	Owl Carousel Owl Demo Theme
 *	v1.3.3
 */
 
@@ -8,7 +8,7 @@
 }
 
 .owl-wrapper-outer{
-	padding: 10% 0 5% 0;
+	padding: 5% 0 5% 0;
 }
 
 /* Styling Next and Prev buttons */
@@ -53,7 +53,7 @@
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
-	background: #ffffff;
+	background: #4B4B4C;
 }
 
 .owl-theme .owl-controls .owl-page.active span,

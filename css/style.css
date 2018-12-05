@@ -79,6 +79,7 @@ a:focus {
   color: #999999;
   text-decoration: none;
 }
+
 iframe {
   border: none;
   width: 100%;
@@ -93,6 +94,33 @@ img { max-width: 100%; }
 	max-height: 250px;
 	border-radius: 150px !important;
 
+}
+
+.actBtn{
+  background: #6C7172;
+  color: #FFF !important;
+  display: inline-block;
+  padding: 10px 35px;
+  /* margin: 3px; */
+  border: 2px solid transparent;
+  border-radius: 3px;
+  -webkit-transition: 0.2s opacity;
+  transition: 0.2s opacity;
+  margin-left: 45%;
+  margin-right: 55%;
+}
+
+.actBtn2{
+  background: #6C7172;
+  color: #FFF !important;
+  display: inline-block;
+  padding: 10px 35px;
+  margin: 10px;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  -webkit-transition: 0.2s opacity;
+  transition: 0.2s opacity;
+  cursor: pointer;
 }
 
 /*----------------------------------------- 2) Preloader --------------------------------------------------*/
@@ -157,12 +185,14 @@ img { max-width: 100%; }
 }
 /*----- background ------*/
 .grey-bg {
-  background: #f6f6f6;
+  /* background: #f6f6f6; */
+  background-color: rgba(25, 209, 209, 0.05);
   padding: 120px 0;
   display: block;
 }
 .white-bg {
-  background: #ffffff;
+  /* background: #ffffff; */
+  background-color: rgba(254, 161, 154, 0.1);
   padding: 120px 0;
   display: block;
 }
@@ -640,7 +670,7 @@ ul.portfolio-image li img {
   height: 100%;
   left: 0;
   top: 0;
-  -webkit-filter: grayscale(100%);
+  -webkit-filter: grayscale(50%);
   transition: filter, transform, 0.5s;
 }
 ul.portfolio-image li .decription-wrap {
@@ -649,7 +679,7 @@ ul.portfolio-image li .decription-wrap {
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(242, 242, 242, 0.4);
+  /* background: rgba(242, 242, 242, 0.4); */
   padding: 20px;
   transition: background, 0.5s;
 }
@@ -783,7 +813,8 @@ ul.portfolio-image li .desc{
 }
 /*---------- d. testimonial -----------*/
 #testimonial {
-  background-image: url(../images/testimonial-bg.jpg);
+  background-image: url(../images/idea2.jpg);
+  /* -webkit-filter: grayscale(70%); */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -799,20 +830,26 @@ ul.portfolio-image li .desc{
   display: block;
   width: 100%;
 }
+
+.center{
+  text-align: center !important;
+  color: #ffffff !important;
+}
+
 .list-testimonial .content-testimonial {
   text-align: center;
   color: #ffffff;
 }
 .list-testimonial .content-testimonial .testi {
   font-size: 16px;
-  line-height: 46px;
+  line-height: 30px;
   letter-spacing: 2px;
 }
 .list-testimonial .content-testimonial .people {
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 30px;
   letter-spacing: 2px;
-  color: #B7B7B7;
+  color: #000;
   font-weight: 700;
 }
 .mask-testimonial{
@@ -919,6 +956,7 @@ ul.portfolio-image li .desc{
   min-height: 650px;
   display: inline-block;
   width: 100%;
+  background-color: rgba(164, 164, 170, 0.1);
 }
 .bg-about {
   background: url('../images/think.jpg');
@@ -1211,10 +1249,29 @@ ul.portfolio-image li .desc{
 
 .footer-bottom{
   width: 100%;
-  background: #2f2f2f;
-  padding: 80px 0;
+  background: rgba(251,166,161,0.25);
+  padding: 20px 0;
   color: #636363;
 }
+
+.footIzq, .footDer, .Izq, .Der{
+  text-align: center;
+}
+/*
+.footDer{
+  text-align: center;
+  background: yellow;
+} */
+
+/* .Izq{
+  text-align: center;
+  background: yellow;
+}
+
+.Der{
+  text-align: center;
+  background: green;
+} */
 
 
 /*----------------------------------------- 8) Component --------------------------------------------------*/

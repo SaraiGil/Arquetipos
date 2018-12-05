@@ -1,3 +1,14 @@
+//Refresh
+function refresh(){
+  location.reload();
+}
+
+//Regresar
+function regresar(){
+  link ="index.html#employement";
+  window.location.href = link;
+}
+
 //Funcion Random
 function randomNum(min, max)
 {
